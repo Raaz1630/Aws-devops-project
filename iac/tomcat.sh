@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo hostnamectl set-hostname "tomcat.cloudbinary.io"
+sudo hostnamectl set-hostname "tomcat.cloud.io"
 echo "`hostname -I | awk '{ print $1 }'` `hostname`" >> /etc/hosts
 sudo apt-get update
 sudo apt-get install git wget unzip curl tree -y

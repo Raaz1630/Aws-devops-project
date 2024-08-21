@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo hostnamectl set-hostname "jfrog.cloudbinary.io"
+sudo hostnamectl set-hostname "jfrog.cloud.io"
 echo "`hostname -I | awk '{ print $1}'` `hostname`" >> /etc/hosts
 sudo apt-get update
 sudo apt-get install vim curl elinks unzip wget tree git -y 
@@ -8,8 +8,8 @@ sudo cp -pvr /etc/environment "/etc/environment_$(date +%F_%R)"
 echo "JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64/" >> /etc/environment 
 source /etc/environment
 cd /opt/
-sudo wget https://releases.jfrog.io/artifactory/bintray-artifactory/org/artifactory/oss/jfrog-artifactory-oss/7.68.21/jfrog-artifactory-oss-7.68.21-linux.tar.gz
-tar -xvzf jfrog-artifactory-oss-7.68.21-linux.tar.gz 
+sudo wget https://releases.jfrog.io/artifactory/bintray-artifactory/org/artifactory/oss/jfrog-artifactory-oss/7.71.2/jfrog-artifactory-oss-7.71.2-linux.tar.gz
+tar -xvzf jfrog-artifactory-oss-7.71.2-linux.tar.gz 
 mv artifactory-oss-* jfrog
 sudo cp -pvr /etc/environment "/etc/environment_$(date +%F_%R)"
 echo "JFROG_HOME=/opt/jfrog" >> /etc/environment

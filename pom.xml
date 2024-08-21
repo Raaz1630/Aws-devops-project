@@ -14,27 +14,26 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
 
-        <sonar.host.url>http://18.212.4.16:9000 </sonar.host.url>
+        <sonar.host.url>http://52.23.188.236:9000 </sonar.host.url>
         <sonar.organization>cloudio</sonar.organization>
         <sonar.projectKey>cloudio</sonar.projectKey>
-        <sonar.login>sqp_e418b43c1f092d33f6506cce32b647a8cac6e665</sonar.login> 
-
+        <sonar.login>sqp_437c0d4270b4d9aaaf4badb8e38a2f174919e261</sonar.login> 
 
     </properties>
 
-       
-<distributionManagement>
+  
+  <distributionManagement>
 
     <repository>
         <id>release</id>
         <name>c-libs-release-local</name>
-        <url>http://35.171.23.90:8082/artifactory/c-libs-release-local/</url>
+        <url>http://98.81.222.19:8082/artifactory/c-libs-release-local/</url>
     </repository>
 
     <snapshotRepository>
         <id>snapshots</id>
         <name>c-libs-snapshots-local</name>
-        <url>http://35.171.23.90:8082/artifactory/c-libs-snapshots-local/</url>
+        <url>http://98.81.222.19:8082/artifactory/c-libs-snapshots-local/</url>
     </snapshotRepository>
 
 </distributionManagement> 

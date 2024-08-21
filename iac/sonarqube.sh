@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo hostnamectl set-hostname "sonarqube.cloudbinary.io"
+sudo hostnamectl set-hostname "sonarqube.cloud.io"
 echo "`hostname -I | awk '{ print $1 }'` `hostname`" >> /etc/hosts
 sudo apt-get update
 sudo apt-get install git wget unzip zip curl tree -y

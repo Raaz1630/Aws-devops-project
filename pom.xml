@@ -17,7 +17,7 @@
         <sonar.host.url>http://44.201.214.202:9000 </sonar.host.url>
         <sonar.organization>cloudio</sonar.organization>
         <sonar.projectKey>cloudio</sonar.projectKey>
-        <sonar.login>sqp_437c0d4270b4d9aaaf4badb8e38a2f174919e261</sonar.login> 
+        <sonar.login>sqp_e19542dbe286cf310a12739028899c2d7cc586f3</sonar.login> 
 
     </properties>
 
